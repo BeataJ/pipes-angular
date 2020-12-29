@@ -8,6 +8,6 @@ export class ConvertPipe implements PipeTransform {
     if (!value) {
       return '';
     }
-    return value + 20;
+    return value * 1.609344;
   }
 }
